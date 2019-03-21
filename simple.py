@@ -19,4 +19,4 @@ class User(Resource):
         return a,200
 
 api.add_resource(User, "/")
-app.run(debug=True)
+app.run(debug=False)
