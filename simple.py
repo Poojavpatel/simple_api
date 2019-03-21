@@ -19,3 +19,5 @@ class User(Resource):
         return a,200
 
 api.add_resource(User, "/")
+if __name__ == '__main__':
+    app.run()
